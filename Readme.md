@@ -17,12 +17,12 @@ A Node.js application for user registration and login, built with **Express.js**
 
 
 ## API Endpoints
-**Base URL:** `http://127.0.0.1:8888/nwt/app/api/v1/users`
+**Base URL :** `http://127.0.0.1:8888/nwt/app/api/v1/users`
 ---
 ### 1. Register a User
 
-* **URL:** `/register`
-* **Method:** `POST`
+* **URL :** `/register`
+* **Method :** `POST`
 * **Request Body :**
 ```json 
     {
@@ -35,8 +35,8 @@ A Node.js application for user registration and login, built with **Express.js**
 ---
 ### 2. Login a User
 
-* **URL:** `/login`
-* **Method:** `POST`
+* **URL :** `/login`
+* **Method :** `POST`
 * **Request Body :**
 ```json
     {
@@ -44,4 +44,10 @@ A Node.js application for user registration and login, built with **Express.js**
     "password": "password123"
     }
 ```
+---
+## Commands to start and test the app.
+
+* **START SERVER :** `npm start || node server.js`
+* **TEST APP :** `npm test`
+
 ---
